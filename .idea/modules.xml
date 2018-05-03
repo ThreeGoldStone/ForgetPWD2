@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ForgetPWD2.iml" filepath="$PROJECT_DIR$/ForgetPWD2.iml" />
+      <module fileurl="file://E:\gitResp\ForgetPWD2\ForgetPWD2.iml" filepath="E:\gitResp\ForgetPWD2\ForgetPWD2.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://E:\gitResp\ForgetPWD2\app\app.iml" filepath="E:\gitResp\ForgetPWD2\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/simplelib2/simplelib2.iml" filepath="$PROJECT_DIR$/simplelib2/simplelib2.iml" />
+      <module fileurl="file://E:\gitResp\ForgetPWD2\simplelib2\simplelib2.iml" filepath="E:\gitResp\ForgetPWD2\simplelib2\simplelib2.iml" />
     </modules>
   </component>
 </project>
