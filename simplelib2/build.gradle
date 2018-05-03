@@ -35,11 +35,15 @@ dependencies {
     implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
     implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
     // butterknife
-    implementation 'com.jakewharton:butterknife:+'
+    api 'com.jakewharton:butterknife:+'
     annotationProcessor 'com.jakewharton:butterknife-compiler:+'
     // network
     implementation 'com.amitshekhar.android:rx2-android-networking:1.0.0'
     implementation 'com.jakewharton.rxbinding2:rxbinding:2.0.0'
+    // others
+    api ('com.jaeger.statusbarutil:library:1.5.1@aar'){
+        exclude group: 'com.android.support', module: 'support-annotations'
+    }
     implementation 'com.android.support:appcompat-v7:27.1.1'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
