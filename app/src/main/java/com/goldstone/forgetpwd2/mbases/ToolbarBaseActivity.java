@@ -53,7 +53,7 @@ public abstract class ToolbarBaseActivity extends BaseActivity {
      * 版本号小于21的后退按钮图片
      */
     private void showBack() {
-        //setNavigationIcon必须在setSupportActionBar(toolbar);方法后面加入
+        //setNavigationIcon必须在setSupportAct ionBar(toolbar);方法后面加入
         setSupportActionBar(mToolbar);
         mToolbar.setNavigationIcon(R.mipmap.icon_back);
         mToolbar.setNavigationOnClickListener(new View.OnClickListener() {
