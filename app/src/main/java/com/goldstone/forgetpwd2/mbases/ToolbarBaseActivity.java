@@ -47,6 +47,7 @@ public abstract class ToolbarBaseActivity extends BaseActivity {
                 showBack();
             }
         }
+
     }
 
     /**
@@ -68,4 +69,6 @@ public abstract class ToolbarBaseActivity extends BaseActivity {
     protected boolean isShowBack() {
         return true;
     }
+
+
 }
